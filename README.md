@@ -1,14 +1,14 @@
 # System Information & Automation Reporter (School Project)
 
-## 📌 Overview
+##  Overview
 
 This project (School project) is a collection of operating system scripts that collect hardware and software information, generate customizable reports, store report history, and support automated reporting via cron jobs and email delivery. Reports can be viewed in the terminal, saved to files, or sent via email based on user preference.
 
 ---
 
-## ⚙️ Features
+##  Features
 
-### 🔹 Manual Mode (main.sh)
+###  Manual Mode (main.sh)
 
 * Interactive menu system
 * Hardware report generation (full / short)
@@ -20,7 +20,7 @@ This project (School project) is a collection of operating system scripts that c
 
 ---
 
-## 📊 Reports
+##  Reports
 
 ### Hardware Reports
 
@@ -43,7 +43,7 @@ Each report includes:
 
 ---
 
-## ⏱️ Automation (Cron Jobs)
+##  Automation (Cron Jobs)
 
 The system supports automated report generation using cron jobs:
 
@@ -54,7 +54,7 @@ Reports are automatically saved in the `outputs/` directory with timestamps.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 system-reporter/
@@ -72,7 +72,7 @@ system-reporter/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Give execution permission
 
@@ -88,13 +88,13 @@ chmod +x *.sh
 
 ---
 
-## 📬 Email Feature
+##  Email Feature
 
 Reports can be sent automatically via email using `msmtp`.
 
 ---
 
-## 📌 Optional Features
+##  Optional Features
 
 * Email delivery system
 * System health scoring
@@ -104,7 +104,7 @@ Reports can be sent automatically via email using `msmtp`.
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 This project was developed as a school assignment to demonstrate skills in:
 
