@@ -1,10 +1,10 @@
-# 🇩🇿 Linux System Audit & Monitoring using Shell Scripting
+# Linux System Audit & Monitoring using Shell Scripting
 
 ### Design and Implementation of an Automated Hardware & Software Audit System
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project is a Linux-based system audit and monitoring tool developed using Bash scripting. It automates the collection of hardware and software information, generates structured reports, stores report history, and supports automated reporting via cron jobs and email delivery.
 
@@ -12,7 +12,7 @@ The goal is to replace manual system inspection commands with a single automated
 
 ---
 
-## 🎯 Project Information
+##  Project Information
 
 **People’s Democratic Republic of Algeria**
 **Ministry of Higher Education and Scientific Research**
@@ -39,7 +39,7 @@ Dr. Bentrad Sassi
 
 ## ⚙️ Features
 
-### 🔹 Manual Mode (main.sh)
+###  Manual Mode (main.sh)
 
 * Interactive menu system
 * Hardware and software report generation (full / short)
@@ -50,9 +50,9 @@ Dr. Bentrad Sassi
 
 ---
 
-## 📊 System Reports
+##  System Reports
 
-### 🖥️ Hardware Reports
+###  Hardware Reports
 
 * CPU (model, cores)
 * RAM usage
@@ -62,7 +62,7 @@ Dr. Bentrad Sassi
 * USB & PCI devices
 * Network interfaces
 
-### 💻 Software Reports
+###  Software Reports
 
 * OS and kernel version
 * Installed packages
@@ -75,7 +75,7 @@ Dr. Bentrad Sassi
 
 ---
 
-## ⏱️ Automation (Cron Jobs)
+##  Automation (Cron Jobs)
 
 The system supports automated execution using cron jobs:
 
@@ -96,7 +96,7 @@ logs/
 
 ---
 
-## 🧠 System Logic
+##  System Logic
 
 1. User selects an option from the menu
 2. System determines the correct script
@@ -116,7 +116,7 @@ logs/
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * Linux (Ubuntu)
 * Bash Shell Scripting
@@ -131,7 +131,7 @@ logs/
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 system-reporter/
@@ -149,7 +149,7 @@ system-reporter/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Give permissions
 
@@ -165,7 +165,7 @@ chmod +x *.sh
 
 ---
 
-## 📌 Use Cases
+##  Use Cases
 
 * System administration
 * Technical maintenance
@@ -175,7 +175,7 @@ chmod +x *.sh
 
 ---
 
-## 🔐 Cybersecurity Importance
+##  Cybersecurity Importance
 
 This tool helps detect:
 
@@ -189,7 +189,7 @@ It acts as a beginner-level security auditing system.
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 * No graphical interface (CLI only)
 * Limited remote SSH automation
@@ -198,7 +198,7 @@ It acts as a beginner-level security auditing system.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Graphical interface (GUI)
 * Remote system monitoring
@@ -210,7 +210,7 @@ It acts as a beginner-level security auditing system.
 
 ---
 
-## 🧾 Conclusion
+##  Conclusion
 
 This project provided strong hands-on experience in Linux system administration, Bash scripting, and automation. It demonstrates how manual system inspection tasks can be transformed into an efficient automated auditing tool.
 
