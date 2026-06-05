@@ -1,9 +1,7 @@
-# System Reporter Project
+# system-information-reporter
 
 ## Overview
-This project is a Linux-based system monitoring and reporting tool developed using Bash scripting.  
-It generates hardware and software reports in different formats (full and short), and supports automation, logging, and optional email sending.
-
+This project ( School project): A collection of operating system scripts that collect hardware and software information, generate customizable reports, store report history, and support automated reporting via cron jobs and email delivery. Reports can be viewed in the terminal, saved to files, or sent via email based on user preference.
 ---
 
 ## Features
